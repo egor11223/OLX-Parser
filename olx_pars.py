@@ -10,13 +10,13 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36 OPR/60.0.3255.170"
 }
 # Укажите токен телеграм
-telegram_token = None
+telegram_token = 5235570523:AAGyQ_S7EkO03avzIQLatUUwxtmfOZlDb2E
 
 # Укажите чат id в который необходимо отправлять данные
-telegram_chat_id = None
+telegram_chat_id = 258117186
 
 #Укажите URL для парсинга, так-же укажите все необходимые фильтры если необходимо
-base_url = 'https://www.olx.ua/nedvizhimost/kvartiry-komnaty/arenda-kvartir-komnat/zaporozhe/?search%5Bfilter_float_price%3Ato%5D=4000&search%5Bdistrict_id%5D=47'
+base_url = 'https://www.olx.pl/elektronika/komputery/q-macbook-m1/?search%5Border%5D=filter_float_price%3Aasc'
 
 base_url_telegram = 'https://api.telegram.org/'+telegram_token+'/sendMessage'
 
